@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Will you be my Valentine?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="card" id="card">
+        <div class="kitty">🐰</div>
+        <h1 class="question" id="question">兔兔 will you be my valentine?</h1>
+
+        <div class="actions" id="actions">
+          <button class="btn yes" id="yes">Yes</button>
+          <button class="btn no" id="no">No</button>
+        </div>
+
+        <small class="hint">"No" seems a bit shy 🐻</small>
+      </div>
+
+      <div class="result" id="result" aria-hidden="true">
+        <h1>YAY! 🎉</h1>
+        <div class="result-image">
+          <img
+            src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?q=80&w=800&auto=format&fit=crop&crop=faces"
+            alt="celebrate"
+          />
+        </div>
+      </div>
+
+      <div id="confetti-root"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
